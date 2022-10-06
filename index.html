@@ -12,22 +12,63 @@
     <!-- Box Icon Package -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
 
-    <title>Joacy | Web Developer</title>
+    <title>JFonseca | Web Developer</title>
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="1-header">
-
-        <h1>J|Fonseca</h1>
-
-        <ul>
-            <li>About Me</li>
-            <li>Skills</li>
-            <li>Contact</li>
-        </ul>
-
+    <header>
+        <h1>JFonseca</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li>About Me</li>
+                <li>Skills</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
+        <section>
+            <h1>About me</h1>
+            <P>Hello, my name is Joacy! I'm from Brazil and I came to Canada to start a new life as Software Developer,
+                right now I'm studying and acquiring knowledg to enter in the market. I'm really excited!
+            </P>
+        </section>
+
+        <section>
+            <h1>Skills</h1>
+        </section>
+
+        <h1>Contact</h1>
+        <section>
+            <div>
+                <form action="search">
+                    <select name="meal" id="meal">
+                        <option value="">Please select a food</option>
+                        <option value="sushi">Sushi</option>
+                        <option value="burguer">Burguer</option>
+                        <option value="fries">Fries</option>
+                        <option value="foutine">Poutine</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+
+                <h2>Validations</h2>
+                <form>
+                    <label>Firstname</label>
+                    <input type="text" name="firstname" id="first" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <p>All rights reserved<sup>&#174;</sup></p>
+    </footer>
 </body>
 
 </html>
